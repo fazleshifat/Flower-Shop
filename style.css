@@ -1,0 +1,359 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+/* header related styles starting here  */
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(229, 84, 115, 0.10);
+    
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.header-text{
+    padding-top: 100px;
+    width: 50%;
+}
+.header-content h3{
+    color: #272727;
+    font-size: 45px;
+    font-weight: 800;
+    width: 100%;
+}
+
+.header-image{
+    padding-top: 32px;
+    width: 397px;
+    margin-right:50px;
+    
+}
+.header-content p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    width: 635px;
+}
+
+.shop-button{
+    padding: 15px 37px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.header-img{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+/* featured flowers section related styles starts from here */
+
+.featured-flowers-section{
+    margin: auto;
+    margin-top: 180px;
+    max-width: 60%;
+}
+
+.featured-flowers-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+
+.featured-flowers-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 32px;
+    padding-bottom: 50px;
+}
+.flower-image-box{
+    width: 400px;
+    height: 540px;
+    text-align: center;
+    color: #272727;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.flower-image-first{
+    background-image: url(./Image/ash.png);
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+    width: 150px;
+    
+    padding:110px 45px 30px 50px;
+    
+}
+
+.flower-image-second{
+    background-image: url(./Image/pink-bg.png);
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+    width: 150px;
+    padding:80px 45px 0px 50px;
+}
+
+
+.flower-image-third{
+    background-image: url(./Image/light.png);
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+    width: 150px;
+    padding:60px 45px 0px 50px;
+    
+}
+
+
+.featured-flowers-content{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width:80%;
+    margin:auto;
+}
+
+/* service section  styles starts here  */
+
+.services-content{
+    width: 77%;
+    margin: auto;
+    margin-top:70px;
+    margin-bottom: 70px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.service-image{
+    padding-top: 86px;
+    padding-bottom: 86px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+
+/* discount section starts from here  */
+
+.discount-content{
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+    padding: 100px 0px;
+    width: 100%;
+    
+}
+
+.discount-content h3{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.discount-content p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 24px 0px 32px 0px;
+}
+
+.discount-text{
+    text-align: center;
+}
+
+
+
+/* instagram starts here */
+
+.instagram_section{
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    background: #fff;
+    width: 80%;
+}
+
+.instagram_section h3{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.instagram_section p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 25px 0px 50px 0px;
+}
+
+.instagram-image-content{
+    justify-content: center;
+    gap: 30px;
+    display: flex;
+}
+
+.ig-img{
+    width: 270px;
+}
+/* bonus section / deal of the day section starts from here  */
+
+.customer-container{
+    text-align: center;
+    background: rgba(0, 0, 0, 0.709);
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.customer-img{
+    width:200px;
+    border-radius: 50%;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.customer-container h2{
+    color: #fdfdfd;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+.customer-container h4{
+    color: #fffcfd;
+    font-size: 26px;
+}
+
+.customer-container p{
+    color: rgba(225, 214, 214, 0.755);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 50px;
+    
+}
+
+.customer-container h5{
+    padding-top:25px ;
+    font-size: 22px;
+}
+
+/* contact section  styles starts from here  */
+
+.contact-content{
+    background-image: url(./Image/Rectangle-9.png);
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 80%;
+    height: 449px;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+
+.contact-content h3{
+    color: #272727;
+    font-weight: 800;
+    padding-top: 120px;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.contact-content p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    
+    
+}
+
+.btn-secondary{
+    margin-left: 20px;
+}
+
+#email {
+    border-radius: 8px;
+    background: #FFF;
+    border: 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 22px 500px 22px 22px;
+   
+}
+
+/* footer style starts from here */
+
+
+footer{
+    height: 449px;
+    width: 100%;
+    background: #111010;
+    text-align: center;
+}
+
+footer h3{
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    padding-top: 130px;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 25px;
+}
+
+footer h4{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 35px;
+}
+
+/* end */
